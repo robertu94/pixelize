@@ -1,0 +1,11 @@
+[project]
+name = "pixelize"
+version = "0.1.0"
+description = "Convert an image to an array for 3d printing"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.2.1",
+    "pillow>=11.0.0",
+    "scikit-learn>=1.6.0",
+]
